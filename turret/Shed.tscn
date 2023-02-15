@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://world/grid/GridObject.gd" type="Script" id=1]
+[ext_resource path="res://turret/images/Missile_Launcher.png" type="Texture" id=2]
+
+[node name="Shed" type="Node2D"]
+script = ExtResource( 1 )
+grid_position = Vector2( 0, 0 )
+size_in_grid = Vector2( 1, 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.45, 0.55 )
+texture = ExtResource( 2 )

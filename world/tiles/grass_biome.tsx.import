@@ -1,0 +1,19 @@
+[remap]
+
+importer="vnen.tiled_tileset_importer"
+type="TileSet"
+path="res://.import/grass_biome.tsx-a964f964dae0f8490bf458709e9a1b90.res"
+
+[deps]
+
+source_file="res://world/tiles/grass_biome.tsx"
+dest_files=[ "res://.import/grass_biome.tsx-a964f964dae0f8490bf458709e9a1b90.res" ]
+
+[params]
+
+custom_properties=true
+tile_metadata=false
+image_flags=7
+embed_internal_images=false
+save_tiled_properties=false
+post_import_script=""
